@@ -1,3 +1,5 @@
+
+/*  header starts */
 .cover {
     width: 1440px;
     height: 160px;
@@ -8,17 +10,24 @@
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-nav {
-
-    vertical-align: middle;
+.news{
+    display: flex;
+    align-items: center;
+    
+    padding-left: 545px;
+    gap: 50px;
 }
 
 li {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
+   display: flex;
+   padding-right: 50px;
+  
     font-family: 'Ubuntu', sans-serif;
 
 }
@@ -28,13 +37,9 @@ li {
     border: solid;
 
 }
+/* end of header */
 
-
-
-
-
-
-
+/* section's starting */
 .main {
     width: 1440px;
     height: 1051px;
@@ -44,6 +49,7 @@ li {
     padding-left: 98px;
     padding-right: 98px;
     padding-bottom: 135px;
+    
 }
 
 h2 {
@@ -93,13 +99,17 @@ h2 {
 
     padding-top: 10px;
 }
-
+/* end of section */
+/* its footer */
 .last {
     width: 1440px;
-    height: 400px;
+    height: 239px;
     margin: auto;
     
-    background-color: aqua;
+    background-color: #758BFD;
+}
+.footerdiv{
+ display: inline-block;
 }
 
 .info {
@@ -130,12 +140,17 @@ h2 {
     padding-left: 24px;
     padding-right: 24px;
 }
+
 .footerphoto{
     width: 40px;
     height: 40px;
     display: flex;
-}
+      align-items: center;
+    justify-content: space-between;
    
+}
+   /* ending  */
+   /* ვერმივხვდი რატომ ვერ შევიტანე ეს ფოტოები დივში.სიმაღლეც გავუზარდე,მაგრამ მაინც არგამომივიდა:((  */
     
    
     

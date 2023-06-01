@@ -1,29 +1,32 @@
-.cover{
+.cover {
     width: 1440px;
     height: 160px;
     margin: auto;
     padding-top: 57px;
     padding-left: 98px;
     padding-right: 1215px;
-    background-color:  #FFFFFF;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
 }
-nav{
-  
+
+nav {
+
     vertical-align: middle;
 }
-li{
+
+li {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     font-family: 'Ubuntu', sans-serif;
-     
+
 }
-.icon{
+
+.icon {
     display: flex;
     border: solid;
-   
+
 }
 
 
@@ -90,3 +93,49 @@ h2 {
 
     padding-top: 10px;
 }
+
+.last {
+    width: 1440px;
+    height: 400px;
+    margin: auto;
+    
+    background-color: aqua;
+}
+
+.info {
+    padding-top: 75px;
+    padding-left: 98px;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    color: #00CAD7;
+}
+
+.post {
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 98px;
+    padding-top: 21px;
+    font-family: 'Nunito', sans-serif;
+     color: #FFFFFF;
+}
+.footericon{
+    
+    padding-left: 98px;
+    display: flex;
+    padding-bottom: 75px;
+    
+}
+.pad{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.footerphoto{
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+   
+    
+   
+    

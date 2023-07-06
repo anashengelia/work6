@@ -33,8 +33,11 @@ li {
 }
 
 .icon {
+    width: 50px;
     display: flex;
-    border: solid;
+    border:  solid ;
+    
+    background-color: #FFFFFF;
 
 }
 /* end of header */
@@ -49,6 +52,7 @@ li {
     padding-left: 98px;
     padding-right: 98px;
     padding-bottom: 135px;
+    
     
 }
 
